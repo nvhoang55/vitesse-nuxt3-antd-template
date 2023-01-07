@@ -6,6 +6,12 @@ useHead({
       rel: 'icon', type: 'image/png', href: '/nuxt.png',
     },
   ],
+  htmlAttrs: {
+    class: 'font-body',
+  },
+  bodyAttrs: {
+    class: 'text-dark dark:(bg-dark-200 text-light) min-h-100vh',
+  },
 })
 </script>
 
@@ -14,16 +20,3 @@ useHead({
     <NuxtPage />
   </NuxtLayout>
 </template>
-
-<style>
-html, body , #__nuxt{
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-html.dark {
-  background: #222;
-  color: white;
-}
-</style>
