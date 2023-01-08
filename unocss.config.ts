@@ -14,8 +14,8 @@ export default defineConfig({
     presetWebFonts({
       fonts: {
         header: 'Noto Serif Display',
-        body: 'Noto Sans',
-        title: 'Noto Serif',
+        sans: 'Noto Sans',
+        serif: 'Noto Serif',
       },
     }),
   ],

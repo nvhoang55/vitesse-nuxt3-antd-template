@@ -7,10 +7,10 @@ useHead({
     },
   ],
   htmlAttrs: {
-    class: 'font-body',
+    class: 'font-sans',
   },
   bodyAttrs: {
-    class: 'text-dark dark:(bg-dark-200 text-light) min-h-100vh',
+    class: 'min-h-100vh',
   },
 })
 </script>

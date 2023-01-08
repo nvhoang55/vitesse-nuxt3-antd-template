@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <header class="font-header">
-      Header
-    </header>
-    <main>Main</main>
-    <footer class="font-title">
-      Footer
-    </footer>
-  </div>
+  <a-layout>
+    <Header />
+    <a-layout-content>
+      <slot />
+    </a-layout-content>
+    <Footer />
+  </a-layout>
 </template>
